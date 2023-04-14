@@ -11,13 +11,36 @@
 > все ветки на локальном компьютере и в
 > удаленном репозитории.
 >
-## Отправить свою версию репозитория вовнешний репозиторий 
+## Отправить свою версию репозитория во внешний репозиторий 
 
 поможет команда 
 ```fix
 git push
 ```
-> При первом её использовании нужна авторизация в появившемся окне.
+> При первом её использовании нужна авторизация в появившемся окне. 
+> Иногда эта команда вызывает появление ОШИБКИ при авторизации: _**Host not found..**_ Это часто происходит, если в ОС, в Приложениях по умолчанию стоит не браузер Microsoft Edge, или регистрация в HitHub происходила не в браузере выбранном по умолчанию, а так же если при попытке передать файл с локального ПК в GitHub, из VSCode:
+```fix
+$ git push -u origin main
+```
+_если возникло на терминале сообщение:_
+```fix
+! [rejected]        main -> main (fetch first)
+! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/StChak/Noris.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+```
+ _Git не знает о вашей локальной истории, он понятия не имеет, как связаны два проекта. Поэтому необходимо прописать в локальном терминале git команду:_ _**allow-unrelated-history**_, _которая разрешит несвязанную историю чтобы это исправить:_
+  ```fix
+git pull origin main --allow-unrelated-histories
+```
+Далее меняем что-либо в локальном файле, сохраняем изменения - эддим и коммитом файл и снова:
+```fix
+$ git push -u origin main
+```
+
 ##  Скачать все из текущего внешнего репозитория  и автоматическисделать merge с нашей версией
 ```fix
 git pull
