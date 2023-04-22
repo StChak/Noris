@@ -1,0 +1,15 @@
+D:\C#\Examle001_Hello_Console!\bin\Debug\net7.0\Examle001_Hello_Console!.exe
+D:\C#\Examle001_Hello_Console!\bin\Debug\net7.0\Examle001_Hello_Console!.deps.json
+D:\C#\Examle001_Hello_Console!\bin\Debug\net7.0\Examle001_Hello_Console!.runtimeconfig.json
+D:\C#\Examle001_Hello_Console!\bin\Debug\net7.0\Examle001_Hello_Console!.dll
+D:\C#\Examle001_Hello_Console!\bin\Debug\net7.0\Examle001_Hello_Console!.pdb
+D:\C#\Examle001_Hello_Console!\obj\Debug\net7.0\Examle001_Hello_Console!.csproj.AssemblyReference.cache
+D:\C#\Examle001_Hello_Console!\obj\Debug\net7.0\Examle001_Hello_Console!.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Examle001_Hello_Console!\obj\Debug\net7.0\Examle001_Hello_Console!.AssemblyInfoInputs.cache
+D:\C#\Examle001_Hello_Console!\obj\Debug\net7.0\Examle001_Hello_Console!.AssemblyInfo.cs
+D:\C#\Examle001_Hello_Console!\obj\Debug\net7.0\Examle001_Hello_Console!.csproj.CoreCompileInputs.cache
+D:\C#\Examle001_Hello_Console!\obj\Debug\net7.0\Examle001_Hello_Console!.dll
+D:\C#\Examle001_Hello_Console!\obj\Debug\net7.0\refint\Examle001_Hello_Console!.dll
+D:\C#\Examle001_Hello_Console!\obj\Debug\net7.0\Examle001_Hello_Console!.pdb
+D:\C#\Examle001_Hello_Console!\obj\Debug\net7.0\Examle001_Hello_Console!.genruntimeconfig.cache
+D:\C#\Examle001_Hello_Console!\obj\Debug\net7.0\ref\Examle001_Hello_Console!.dll
